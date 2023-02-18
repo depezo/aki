@@ -3,7 +3,7 @@ services:
   - type: web
     name: webdis
     env: docker
-    repo: https://github.com/depezo/aki/server.git
+    repo: https://github.com/depezo/aki.git
     plan: free
     branch: main
     envVars:
